@@ -1,0 +1,6 @@
+project: rust-hex
+target: rusthex-fuzz
+
+cmds:
+    - cmd: ./rusthex-fuzz
+      libfuzzer: true
